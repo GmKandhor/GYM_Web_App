@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import{Box} from "@mui/material"
 import './App.css'
 import Navbar from "./Components/Navbar"
@@ -13,7 +13,7 @@ import {
 import Footer from "./Components/Footer"
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     // hi

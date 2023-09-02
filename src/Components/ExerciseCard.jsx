@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Stack,Typography } from '@mui/material'
+// eslint-disable-next-line react/prop-types
 const ExerciseCard = ({exercise}) => {
   return (
     <Link to={`exercise/${exercise.id}`} className='exercise-card'>
